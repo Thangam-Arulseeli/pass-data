@@ -14,7 +14,7 @@ export default{
 
         onMounted(() => {
             //  inputRef.value.focus();
-          this.refs.inputRef.focus();
+          //this.refs.inputRef.focus();
  
         })
 

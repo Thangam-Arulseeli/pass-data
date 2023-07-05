@@ -39,6 +39,8 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><router-link to="/templaterefs"> Template refs Options API </router-link> </li>
             <li><router-link to="/templaterefscomp"> Template refs Composition API </router-link> </li>
+            <li><router-link to="/fadetext"> Animate-FadeText </router-link> </li>
+            <li><router-link to="/suspense"> Suspense Components </router-link> </li>
           </ul>  
          </li>
 

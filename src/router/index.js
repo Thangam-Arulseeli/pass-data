@@ -65,7 +65,16 @@ const routes = [
     name: 'templaterefscomp',
     component: () => import('../components/Concepts/TemplateRefsComp.vue')
   },
-
+  {
+    path: '/fadetext',
+    name: 'fadetext',
+    component: () => import('../components/animations/TextFade.vue')
+  },
+  {
+    path: '/suspense',
+    name: 'suspense',
+    component: () => import('../components/Concepts/ArticlePost.vue')
+  },
   ]
 
 const router = createRouter({
